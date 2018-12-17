@@ -12,7 +12,7 @@ SEDIPRO UNFV - Sección Estudiantil de Sección de Proyectos
 
 ### Important links
 
-We have built this web only using the next technologies:
+We have built this web using the next technologies:
 
  - HTML
  - Javascript
@@ -20,7 +20,7 @@ We have built this web only using the next technologies:
 
 Applying the next frameworks:
 
- - Bootstrap
+ - [Bootstrap](https://getbootstrap.com/)
 
 ### Templates
 
