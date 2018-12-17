@@ -4,11 +4,18 @@ This is the first official SEDIPRO UNFV web page. We hope you love it!
 
 ### What is SEDIPRO UNFV?
 
-We are SEDIPRO UNFV. 
+We are a group of students and bachelors that want to participate in project of [Universidad Nacional Federico Villarreal.](http://web2.unfv.edu.pe/sitio/)
 
 ```markdown
 SEDIPRO UNFV - Sección Estudiantil de Sección de Proyectos
 ```
+
+### Contributors
+
+These people made this webpage possible. Take a moment to follow them and look into their own projects.
+
+ - [José Luis Proaño Sipan](https://github.com/JoseLuis1197)
+ - Xxxx.
 
 ### Important links
 
