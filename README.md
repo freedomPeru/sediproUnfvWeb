@@ -21,3 +21,9 @@ We have built this web only using the next technologies:
 Applying the next frameworks:
 
  - Bootstrap
+
+### Templates
+
+We really thank those templates that made SEDIPRO UNFV webpage possible:
+
+ - [startbootstrap-creative](https://github.com/BlackrockDigital/startbootstrap-creative)
