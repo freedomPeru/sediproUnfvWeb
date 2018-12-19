@@ -10,14 +10,17 @@ We are a group of students and bachelors that want to participate in project of 
 SEDIPRO UNFV - Sección Estudiantil de Sección de Proyectos
 ```
 
-### Contributors
+### Contributors, thank you!
 
 These people made this webpage possible. Take a moment to follow them and look into their own projects.
 
  - [José Luis Proaño Sipan](https://github.com/JoseLuis1197)
- - Xxxx.
 
-### Important links
+### Things to take into consideration
+***
+
+#### Important links
+
 
 We have built this web using the next technologies:
 
@@ -29,8 +32,13 @@ Applying the next frameworks:
 
  - [Bootstrap](https://getbootstrap.com/)
 
-### Templates
+#### Templates
 
 We really thank those templates that made SEDIPRO UNFV webpage possible:
 
- - [startbootstrap-creative](https://github.com/BlackrockDigital/startbootstrap-creative)
+ - [Startbootstrap-creative](https://github.com/BlackrockDigital/startbootstrap-creative)
+
+#### Standards and good practices
+
+ - [Git commit standard](https://chris.beams.io/posts/git-commit/) proposed by Chris Beams.
+ - [Markdown guide](https://www.markdownguide.org/).
