@@ -3,6 +3,7 @@
 This is the first official SEDIPRO UNFV web page. We hope you love it!
 
 ![](https://img.shields.io/github/license/JoseLuis1197/sediproUnfvWeb.svg)
+![](https://img.shields.io/badge/version-v0.0.0-brightgreen.svg)
 ![](https://img.shields.io/github/forks/JoseLuis1197/sediproUnfvWeb.svg?style=social)
 ![](https://img.shields.io/github/stars/JoseLuis1197/sediproUnfvWeb.svg?style=social)
 ![](https://img.shields.io/github/issues/JoseLuis1197/sediproUnfvWeb.svg?style=social)
