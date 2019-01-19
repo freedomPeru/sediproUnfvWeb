@@ -20,8 +20,15 @@ These people made this webpage possible. Take a moment to follow them and look i
 
 ### Things to take into consideration
 
-#### Important links
+#### Tools
 
+We have used the next tools to built this webpage. Feel free to download them. They are free!
+
+- [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
+- [Sourcetree](https://www.sourcetreeapp.com/)
+- [Git](https://git-scm.com/)
+
+#### Technology
 
 We have built this web using the next technologies:
 
@@ -29,7 +36,7 @@ We have built this web using the next technologies:
  - Javascript
  - CSS
 
-Applying the next frameworks:
+Only applying, at the moment, the next frameworks:
 
  - [Bootstrap](https://getbootstrap.com/)
 
