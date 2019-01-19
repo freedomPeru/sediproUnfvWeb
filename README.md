@@ -17,6 +17,11 @@ We are a group of students and bachelors that want to participate in projects of
 These people made this webpage possible. Take a moment to follow them and look into their own projects in GitHub.
 
  - [José Luis Proaño Sipan](https://github.com/JoseLuis1197)
+ - [Christian Pelayo](https://github.com/ChristianDCP)
+ - [César Alburqueque](https://github.com/acce05)
+ - [Arantza Burga](https://github.com/Ary181)
+ - [Oscar Calsina](https://github.com/oscarcalsina24)
+ - [Rodrigo Zapata](https://github.com/Rorjo)
 
 ### Things to take into consideration
 
