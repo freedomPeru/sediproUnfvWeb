@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>SEDIPRO</title>
 
     <!--Iconos online-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/solid.css" integrity="sha384-aj0h5DVQ8jfwc8DA7JiM+Dysv7z+qYrFYZR+Qd/TwnmpDI6UaB3GJRRTdY8jYGS4" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/regular.css" integrity="sha384-l+NpTtA08hNNeMp0aMBg/cqPh507w3OvQSRoGnHcVoDCS9OtgxqgR7u8mLQv8poF" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/brands.css" integrity="sha384-whKHCkwP9f4MyD1vda26+XRyEg2zkyZezur14Kxc784RxUU1E7HvWVYj9EoJnUV7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/fontawesome.css" integrity="sha384-WK8BzK0mpgOdhCxq86nInFqSWLzR5UAsNg0MGX9aDaIIrFWQ38dGdhwnNCAoXFxL" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,54 +25,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
-  <body id="page-top">
+  <body id="page-top" onload="addNavigation();addHeader();addFooter();">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="font-family:Montserrat">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" >SEDIPRO UNFV</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Acerca de nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Portafolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Junta directiva</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contáctanos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top"  style="font-family:Montserrat">      
     </nav>
 
-    <header class="masthead text-center text-white d-flex" style="font-family:Montserrat">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
-              <strong>SEDIPRO UNFV</strong> 
-              <span style="font-size: 1em; color: tomato;">
-                  <i class="fas fa-heart"></i>
-              </span>
-
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Difundir las buenas prácticas en dirección de proyectos.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family:Montserrat" >Encuentra más!</a>
-          </div>
-        </div>
-      </div>
+    <header id="headerSection" class="masthead text-center text-white d-flex" style="font-family:Montserrat">      
     </header>
 
     <section class="bg-primary" id="about">
@@ -92,7 +48,7 @@
     </section>
 
     <section id="services">
-      <div class="container" >
+      <div class="container" ></div>
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading" style="font-family:Montserrat">¿Qué proyectos hacemos?</h2>
@@ -237,36 +193,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>    
 
-    
-
-    <section id="contact">
-      <div class="container" style="font-family:Montserrat">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">¡Contáctanos!</h2>
-            <hr class="my-4">
-            <p class="mb-5">Contáctamos y estaremos gustosos de hablar contigo.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <i class="fas fa-phone fa-3x mb-3 sr-contact-1 sediproColor"></i>
-            <p>123-456-6789</p>
-          </div>
-          <div class="col-lg-4 mr-auto text-center">
-            <i class="fas fa-envelope fa-3x mb-3 sr-contact-1 sediproColor"></i>
-            <p>
-              <a href="mailto:your-email@your-domain.com">sedipro.unfv@gmail.com</a>
-            </p>
-          </div>
-          <div class="col-lg-4 mr-auto text-center">
-            <i class="fas fa-facebook fa-3x mb-3 sr-contact-1 sediproColor"></i>           
-          </div>
-        </div>
-      </div>
-    </section>
+    <footer id="footerSection">      
+    </footer>     
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -278,7 +208,7 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+    <script src="js/creative.js"></script>
 
   </body>
 
