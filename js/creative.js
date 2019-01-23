@@ -1,24 +1,42 @@
 (function($) {
   "use strict"; // Start of use strict
 
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 56)
-        }, 1000, "easeInOutExpo");
-        return false;
+  // Select all links with hashes
+  $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function (event) {
+      // On-page links
+      if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
+        location.hostname == this.hostname
+      ) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000, function () {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) { // Checking if the target was focused
+              return false;
+            } else {
+              $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
+            };
+          });
+        }
       }
-    }
-  });
-
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
+    });
 
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
@@ -90,19 +108,3 @@
   });
 
 })(jQuery); // End of use strict
-
-
-function addNavigation() {
-  var inner = '<div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top" >SEDIPRO UNFV</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarResponsive"><ul class="navbar-nav ml-auto"><li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Acerca de nosotros</a></li><li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Portafolio</a></li><li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Junta directiva</a></li><li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contáctanos</a></li> </ul></div></div>';
-  document.getElementById("mainNav").innerHTML = inner;
-}
-
-function addHeader() {
-  var inner = "<div class='container my-auto'><div class='row'><div class='col-lg-10 mx-auto'><h1 class='text-uppercase'><strong>SEDIPRO UNFV</strong><span style='font-size: 1em; color: tomato;'>            <i class='fas fa-heart'></i>          </span>        </h1>        <hr>        </div>        <div class='col-lg-8 mx-auto'>          <p class='text-faded mb-5'>Difundir las buenas prácticas en dirección de proyectos.</p><a class='btn btn-primary btn-xl js-scroll-trigger' href='#about' style='font-family:Montserrat' >Encuentra más!</a></div></div></div >"
-  document.getElementById("headerSection").innerHTML = inner;
-}
-
-function addFooter() {
-  var inner = "<section id='contact'><div class='container' style='font-family:Montserrat'><div class='row'><div class='col-lg-8 mx-auto text-center'><h2 class='section-heading'>¡Contáctanos!</h2><hr class='my-4'><p class='mb-5'>Contáctamos y estaremos gustosos de hablar contigo.</p></div></div><div class='row'><div class='col-lg-4 ml-auto text-center'><i class='fas fa-phone fa-3x mb-3 sr-contact-1 sediproColor'></i><p>123-456-6789</p></div><div class='col-lg-4 mr-auto text-center'><i class='fas fa-envelope fa-3x mb-3 sr-contact-1 sediproColor'></i><p><a href='mailto:your-email@your-domain.com'>sedipro.unfv@gmail.com</a></p></div><div class='col-lg-4 mr-auto text-center'><i class='fab fa-facebook fa-3x mb-3 sr-contact-1 sediproColor'></i></div></div></div></section >";
-  document.getElementById("footerSection").innerHTML = inner;
-}

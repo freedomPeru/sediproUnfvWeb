@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
     <title>SEDIPRO</title>
 
     <!--Iconos online-->
@@ -20,18 +18,55 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
-
     <!-- Typografic Google -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">    
+    
 </head>
 
-  <body id="page-top" onload="addNavigation();addHeader();addFooter();">
+  <body id="page-top">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top"  style="font-family:Montserrat">      
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="font-family:Montserrat">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">SEDIPRO UNFV</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse stroke" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Portafolio</a>
+            </li>               
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contáctanos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </nav>
 
-    <header id="headerSection" class="masthead text-center text-white d-flex" style="font-family:Montserrat">      
+    <header class="masthead text-center text-white d-flex" style="font-family:Montserrat">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>SEDIPRO UNFV</strong>
+              <span style="font-size: 1em; color: tomato;">
+                <i class="fas fa-heart"></i>
+              </span>    
+            </h1>
+            
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">Difundir las buenas prácticas en dirección de proyectos.</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="font-family:Montserrat">Encuentra más!</a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section class="bg-primary" id="about">
@@ -195,11 +230,37 @@
       </div>
     </section>    
 
-    <footer id="footerSection">      
-    </footer>     
+    <section id="contact">
+      <div class="container" style="font-family:Montserrat">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">¡Contáctanos!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Contáctamos y estaremos gustosos de hablar contigo.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1 sediproColor"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-1 sediproColor"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">sedipro.unfv@gmail.com</a>
+            </p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-facebook fa-3x mb-3 sr-contact-1 sediproColor"></i>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -208,7 +269,7 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.js"></script>
+    <script src="js/creative.js"></script>    
 
   </body>
 
