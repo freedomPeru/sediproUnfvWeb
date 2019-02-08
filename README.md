@@ -51,6 +51,7 @@ Only applying, at the moment, the next frameworks:
 We really thank those templates that made SEDIPRO UNFV webpage possible:
 
  - [Startbootstrap-creative](https://github.com/BlackrockDigital/startbootstrap-creative)
+ - [Fullcalendar IO](https://fullcalendar.io/)
 
 #### Standards and good practices
 

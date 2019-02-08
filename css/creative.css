@@ -91,7 +91,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  border-bottom: 1px solid rgba(184, 187, 190, 0.1);
   background-color: #fff;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
@@ -114,7 +114,7 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: #212529;*
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -173,6 +173,49 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #015581;
   }
+}
+
+#mainNavPag {
+  border-bottom: 1px solid rgba(184, 187, 190, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNavPag .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #015581;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNavPag .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #015581;
+}
+
+#mainNavPag .navbar-nav > li.nav-item > a.nav-link,
+#mainNavPag .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+}
+
+#mainNavPag .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNavPag .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #015581;
+}
+
+#mainNavPag .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNavPag .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #015581 !important;
+  background-color: transparent;
+}
+
+#mainNavPag .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNavPag .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
 }
 
 header.masthead {
