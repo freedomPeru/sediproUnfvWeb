@@ -22,6 +22,7 @@ These people made this webpage possible. Take a moment to follow them and look i
  - [Arantza Burga](https://github.com/Ary181)
  - [Oscar Calsina](https://github.com/oscarcalsina24)
  - [Rodrigo Zapata](https://github.com/Rorjo)
+ - [Roy Parra](https://github.com/rparra12)
 
 ### Things to take into consideration
 
@@ -50,6 +51,7 @@ Only applying, at the moment, the next frameworks:
 We really thank those templates that made SEDIPRO UNFV webpage possible:
 
  - [Startbootstrap-creative](https://github.com/BlackrockDigital/startbootstrap-creative)
+ - [Fullcalendar IO](https://fullcalendar.io/)
 
 #### Standards and good practices
 
